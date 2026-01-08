@@ -184,7 +184,7 @@ class WordPressReportingIntegration implements HasEventBindings
 
 The beauty of this approach is that your internal application logic doesn't need to know about how events are emitted,
 it just needs to listen for the nomadic events and it can do the actions from there. So if you needed to send an email
-when a report is created, you could create an [event listener](event-listeners.md) in your a platform-agnostic
+when a report is created, you could create an [event listener](event-listeners) in your a platform-agnostic
 initializer that would fire when the report is published.
 
 In doing so, you've completely decoupled the platform from your application - as long as the platform knows how to emit

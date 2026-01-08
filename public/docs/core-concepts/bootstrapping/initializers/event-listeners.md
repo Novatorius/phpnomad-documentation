@@ -91,7 +91,7 @@ Event::broadcast(new UserRegistered('alex@fake.email','Alex'));
 ```
 
 Alternatively, you might need to create an event binding that translates a platform event (such as a WordPress hook) to
-the `UserRegistered` event. Check out [Event Binding](event-binding.md) for more context on that.
+the `UserRegistered` event. Check out [Event Binding](event-binding) for more context on that.
 
 ## Why Use Event Listeners?
 
